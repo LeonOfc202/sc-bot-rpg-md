@@ -324,9 +324,9 @@ _${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik_
 
 Note: Jika ada Fitur yg Error Lapor ke owner
 `,
-      footer: `AhmdLui 🥶🥶`,
+      footer: `𝐋𝐀𝐕𝐄𝐍𝐃𝐄𝐑-𝐁𝐎𝐓𝐙`,
       title: judul,
-      buttonText: "Klik here",
+      buttonText: "𝑪𝑳𝑰𝑲𝑪 𝑯𝑬𝑹𝑬",
       sections
     }
     return conn.sendMessage(m.chat, listMessage, { quoted: fliveLoc, mentions: await conn.parseMention(judul), contextInfo: { forwardingScore: 99999, isForwarded: true }})
