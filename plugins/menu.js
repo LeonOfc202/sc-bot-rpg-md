@@ -57,98 +57,98 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     '': 'Tanpa Kategori',
     'err': 'Fitur Yg Eror',
   }
-  if (teks == 'game') tags = {
+  if (teks == '🕹️game') tags = {
     'game': 'Game'
   }
-  if (teks == 'xp') tags = {
+  if (teks == '🎁xp') tags = {
     'xp': 'Exp & Limit'
   }
-  if (teks == 'rpg') tags = {
+  if (teks == '🌱rpg') tags = {
     'rpg': 'RPG'
   }
-  if (teks == 'stiker') tags = {
+  if (teks == '😆stiker') tags = {
     'sticker': 'Stiker'
   }
-  if (teks == 'kerangajaib') tags = {
+  if (teks == '🐚kerangajaib') tags = {
     'kerang': 'Kerang Ajaib'
   }
-  if (teks == 'quotes') tags = {
+  if (teks == '🥺quotes') tags = {
     'quotes': 'Quotes'
   }
-  if (teks == 'grup') tags = {
+  if (teks == '🎗️grup') tags = {
     'group': 'Grup'
   }
-  if (teks == 'premium') tags = {
+  if (teks == '⬆️premium') tags = {
     'premium': 'Premium'
   }
-  if (teks == 'fitnah') tags = {
+  if (teks == '🍑fitnah') tags = {
     'fitnah': 'Fitnah & Stres Generator'
   }  
-  if (teks == 'internet') tags = {
+  if (teks == '📱internet') tags = {
     'internet': 'Internet'
   }
-  if (teks == 'anonymous') tags = {
+  if (teks == '🧑‍🤝‍🧑anonymous') tags = {
     'anonymous': 'Anonymous Chat'
   }
-  if (teks == 'anime') tags = {
+  if (teks == '❤️anime') tags = {
     'anime': 'Anime'
   }
-  if (teks == 'asupan') tags = {
+  if (teks == '🔞asupan') tags = {
     'asupan': 'Asupan'
   }
-  if (teks == 'nulis') tags = {
+  if (teks == '⌨️nulis') tags = {
     'nulis': 'MagerNulis & Logo'
   }
-  if (teks == 'downloader') tags = {
+  if (teks == '💾downloader') tags = {
     'downloader': 'Downloader'
   }
-  if (teks == 'film') tags = {
+  if (teks == '🎥film') tags = {
     'film': 'Film'
   }
-  if (teks == 'cerita') tags = {
+  if (teks == '📕cerita') tags = {
     'cerita': 'Kumpulan Cerpen'
   }    
-  if (teks == 'jadwal') tags = {
+  if (teks == '📝jadwal') tags = {
     'jadwal': 'Jadwal Tv DLL'
   }
-  if (teks == 'tools') tags = {
+  if (teks == '🛠️tools') tags = {
     'tools': 'Tools'
   }
-  if (teks == 'fun') tags = {
+  if (teks == '😂fun') tags = {
     'fun': 'Fun'
   }
-  if (teks == '18+') tags = {
+  if (teks == '🔞18+') tags = {
     '18+': 'Gore & Hentai'
   }
-  if (teks == 'vn') tags = {
+  if (teks == '🔮vn') tags = {
     'vn': 'Sound & Vn'
   }  
-  if (teks == 'database') tags = {
+  if (teks == '📥database') tags = {
     'database': 'Database'
   }
-  if (teks == 'vote') tags = {
+  if (teks == '📌vote') tags = {
     'vote': 'Voting',
     'absen': 'Absen'
   }
-  if (teks == 'quran') tags = {
+  if (teks == '📖quran') tags = {
     'quran': 'Al Qur\'an'
   }
-  if (teks == 'audio') tags = {
+  if (teks == '💿audio') tags = {
     'audio': 'Pengubah Suara'
   }
-  if (teks == 'jadibot') tags = {
+  if (teks == '🔌jadibot') tags = {
     'jadibot': 'Jadi Bot'
   }
-  if (teks == 'info') tags = {
+  if (teks == '🗃️info') tags = {
     'info': 'Info'
   }
-  if (teks == 'tanpakategori') tags = {
+  if (teks == '❓tanpakategori') tags = {
     '': 'Tanpa Kategori'
   }
-  if (teks == 'err') tags = {
+  if (teks == '⁉️err') tags = {
     'err': 'Fitut Yg Eror'
   }  
-  if (teks == 'owner') tags = {
+  if (teks == '🏆owner') tags = {
     'owner': 'Owner',
     'host': 'Host',
     'advanced': 'Advanced'
@@ -242,7 +242,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat  ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "caption":"NOTE : Jika Ada Fitur Eror tinggal Ketik .report yah","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "liveLocationMessage": { "caption":"𝐖𝐀𝐑𝐍𝐈𝐍𝐆 : BOT MASI DALAM TAHAP PENGEMBANGAN JADI JIKA ADA ERROR WAJAR SAJA YAH","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}     
 	 const sections = [
 	      {
@@ -252,7 +252,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         ]
       },
       {
-        title: 'Kedinginan 🥶🥶',
+        title: '𝐋𝐀𝐕𝐄𝐍𝐃𝐄𝐑𝖬𝖣',
         rows: [
           { title: 'Semua Perintah', rowId: `${_p + command} all` },
           { title: 'Game', rowId: `${_p + command} game` },
@@ -387,7 +387,7 @@ Note: Jika ada Fitur yg Error Lapor ke owner
 	 { remoteJid: "status@broadcast" } : {}) },
 	 message: { "liveLocationMessage": { "caption":"NOTE : Syg Rika ❤️","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	} 
-    conn.send2ButtonImg(m.chat, fla + `${command} ${teks}`, text.trim(), wm, `Own😎`, `${_p}owner`, `Sumbangan🥶`, `${_p}donasi`, fliveLoc)		
+    conn.send2ButtonImg(m.chat, fla + `${command} ${teks}`, text.trim(), wm, `𝐎𝐖𝐍𝐄𝐑`, `${_p}owner`, `𝐃𝐎𝐍𝐀𝐒𝐈`, `${_p}donasi`, fliveLoc)		
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
